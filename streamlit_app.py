@@ -14,8 +14,8 @@ end_date = datetime.now()
 
 
 st.title('Stock Trend Prediction'
-
-tickers = ['AAPL', 'MSFT', 'NFLX', 'GOOG']
+user_input = st.text_input('Enter Stock Ticker', 'AAPL')
+tickers = [user_input]
 
 df_list = []
 
