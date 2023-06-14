@@ -13,7 +13,8 @@ start_date = datetime.now() - pd.DateOffset(months=36)
 end_date = datetime.now()
 
 
-st.title('Stock Trend Prediction'
+st.title('Stock Trend Prediction')
+         
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
 tickers = [user_input]
 
