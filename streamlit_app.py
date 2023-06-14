@@ -1,5 +1,5 @@
 import pandas as pd
-$pipenv install yfinance
+pip3 install yfinance
 import yfinance as yf
 from datetime import datetime
 import matplotlib.pyplot as pyplot
