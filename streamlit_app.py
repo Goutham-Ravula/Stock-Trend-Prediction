@@ -72,7 +72,7 @@ y = df['Close']
 # Linear regression
 st.subheader('Linear Regression')
 
-train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.15, shuffle=False, random_state=0)
+train_x, test_x, train_y, test_y = train_test_split(x, y, test_size=0.15, shuffle=True, random_state=0)
 
 regression = LinearRegression()
 regression.fit(train_x, train_y)
