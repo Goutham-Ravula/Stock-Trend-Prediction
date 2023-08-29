@@ -44,7 +44,7 @@ st.subheader("Stock's Performance")
 history = yf.Ticker(tickers[0]).history(period="Max")
 df_history = pd.DataFrame(history)
 
-fig_history = px.area(df_history.reset_index(), x='Date', y='Close', title='History of Stock Performance')
+fig_history = px.line(df_history.reset_index(), x='Date', y='Close', title='History of Stock Performance')
 fig_history.update_xaxes(title='Date')
 fig_history.update_yaxes(title='Value')
 st.plotly_chart(fig_history)
@@ -59,6 +59,7 @@ fig = px.line(df.reset_index(), x='Date', y='Close', title='Closing Price vs Tim
 ma100 = df['Close'].rolling(window=100).mean()
 fig.add_scatter(x=df.reset_index()['Date'], y=ma100, mode='lines', name='Moving Average (100 days)')
 st.plotly_chart(fig)
+
 
 #Graph with Volatility of Stocks
 volatility = df.groupby('Ticker')['Close'].pct_change().rolling(window=10).std().reset_index()
