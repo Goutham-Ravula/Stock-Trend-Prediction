@@ -7,6 +7,5 @@ numpy
 streamlit
 plotly
 statsmodels
-sklearn
 seaborn
 plotly.graph_objects
