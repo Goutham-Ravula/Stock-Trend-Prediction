@@ -2,10 +2,8 @@ pandas
 yfinance
 datetime
 matplotlib
-keras
 numpy
 streamlit
 plotly
 statsmodels
 seaborn
-plotly.graph_objects
