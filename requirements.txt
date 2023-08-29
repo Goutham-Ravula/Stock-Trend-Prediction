@@ -8,3 +8,4 @@ plotly
 statsmodels
 seaborn
 sklearn.model_selection
+sklearn
