@@ -8,7 +8,7 @@ import plotly.express as px
 import statsmodels.api as sm
 import seaborn as sns 
 import plotly.graph_objects as go
-
+import sklearn.model_selection
 
 
 #Importing data from Yahoo Finance
