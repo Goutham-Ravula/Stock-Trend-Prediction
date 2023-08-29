@@ -2,14 +2,10 @@ import pandas as pd
 import yfinance as yf
 from datetime import datetime
 import matplotlib.pyplot as plt
-from keras.models import load_model
 import numpy as np
 import streamlit as st
 import plotly.express as px
 import statsmodels.api as sm
-from sklearn import metrics
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
 from sklearn.metrics import confusion_matrix, accuracy_score
 import math 
 import seaborn as sns 
