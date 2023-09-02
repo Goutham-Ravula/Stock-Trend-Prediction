@@ -69,3 +69,7 @@ Historical stock price data is sourced from Yahoo Finance using the "yfinance" l
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Note:** For better user experience use the streamlit web app in light mode. 
