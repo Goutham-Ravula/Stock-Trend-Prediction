@@ -6,11 +6,11 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 import statsmodels.api as sm
-from sklearn import metrics
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import confusion_matrix, accuracy_score
-import math 
+from scikit-learning import metrics
+from scikit-learning.model_selection import train_test_split
+from scikit-learning.linear_model import LinearRegression
+from scikit-learning.metrics import confusion_matrix, accuracy_score
+import math
 import seaborn as sns 
 import plotly.graph_objects as go
 
