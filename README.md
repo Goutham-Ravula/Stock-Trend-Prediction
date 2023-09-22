@@ -14,6 +14,7 @@ The Stock Trend Prediction Web Application is a data-driven tool built using Pyt
 - [Statistical Analysis](#statistical-analysis)
 - [Model Evaluation](#model-evaluation)
 - [License](#license)
+- [Link](#link)
 
 ## Features
 
@@ -66,6 +67,9 @@ Historical stock price data is sourced from Yahoo Finance using the "yfinance" l
 - **Root Mean Squared Error (RMSE):** RMSE is the square root of MSE and provides a measure of the average prediction error. Lower RMSE values indicate improved model precision.
 
 - **Model Accuracy:** The project calculates the accuracy of the model by comparing the means of actual and predicted stock prices. Higher accuracy percentages represent more reliable predictions.
+
+## Link
+https://goutham-ravula-stock-prediction-project.streamlit.app/?embed_options=light_theme
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
